@@ -1,0 +1,5 @@
+<?= $this->extend('layouts/main') ?>
+<?= $this->section('content') ?>
+<section class="inner-hero"><div class="inner-hero-copy"><p class="eyebrow"><span class="eyebrow-dot"></span> ABOUT THE SHOP</p><h1>Print what matters. <em>Keep it moving.</em></h1><p>Ledgerline Print & Supply is a neighborhood print counter and stationery shop concept.</p></div><?= view('components/hero_art', ['kind' => 'about']) ?></section>
+<section class="about-layout"><div class="about-story"><p class="eyebrow">Behind the counter</p><h2>Good service starts with clear work.</h2><p>Customers come in for documents, binding, paper, pens, and everyday school or office supplies. The task board gives the team a shared view of what needs attention each day.</p><p>Visitors can browse the daily and full task lists. Staff sign in to create, edit, and archive tasks. Customer and staff records continue from my earlier project.</p></div><div class="developer-card"><span class="eyebrow">Designed and built by</span><div class="developer-monogram" aria-hidden="true">JA</div><h3><?= esc($name) ?></h3><p>BSITBA · <?= esc($section) ?></p><p><?= esc($course) ?></p></div></section>
+<?= $this->endSection() ?>
