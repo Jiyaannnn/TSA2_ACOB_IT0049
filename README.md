@@ -62,7 +62,8 @@ The existing customer and staff sections are also available after sign-in. CodeI
 ## Evidence and report
 
 - [Screenshot checklist](docs/SCREENSHOT_CHECKLIST.md)
-- [TSA2 report](documentation/ACOB_IT0049_TSA2_TasksForToday.docx)
+- [Expanded TSA2 report](documentation/ACOB_IT0049_TSA2_TasksForToday_Expanded.docx)
+- [Original shorter report](documentation/ACOB_IT0049_TSA2_TasksForToday.docx)
 - Real browser captures are in `docs/evidence/`.
 
 ## Notes
