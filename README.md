@@ -22,7 +22,7 @@ Edit `.env` and set the local values below. Replace the MySQL username and passw
 
 ```ini
 CI_ENVIRONMENT = development
-app.baseURL = 'http://localhost:8088/'
+app.baseURL = 'http://localhost:8080/'
 database.default.hostname = 127.0.0.1
 database.default.database = ledgerline_print_pos_tsa2
 database.default.username = root
@@ -42,7 +42,7 @@ php spark db:seed TaskSystemSeeder
 export TSA2_INITIAL_PASSWORD='replace-with-your-own-private-password-of-at-least-12-characters'
 php spark db:seed SetTaskUserPasswordSeeder
 unset TSA2_INITIAL_PASSWORD
-php spark serve --port 8088
+php spark serve --port 8080
 ```
 
 The task demo username is `jian`. Use the private password you set in `TSA2_INITIAL_PASSWORD`. Never put it in a commit, screenshot, or issue. Do not rerun the sample seeders on populated databases because they insert sample rows.
